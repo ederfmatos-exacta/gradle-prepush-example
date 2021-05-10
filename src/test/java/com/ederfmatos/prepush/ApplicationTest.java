@@ -13,4 +13,10 @@ class ApplicationTest {
         assertEquals(5, 2 + 3);
     }
 
+    @Test
+    @DisplayName("Deve falhar")
+    void shouldFail() {
+        assertEquals(6, 2 + 3);
+    }
+
 }

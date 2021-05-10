@@ -1,2 +1,2 @@
-com/exactaworks/prepush/Application.java
- com.exactaworks.prepush.Application
+com/ederfmatos/prepush/Application.java
+ com.ederfmatos.prepush.Application
