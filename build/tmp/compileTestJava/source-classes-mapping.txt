@@ -1,0 +1,2 @@
+com/exactaworks/prepush/ApplicationTest.java
+ com.exactaworks.prepush.ApplicationTest
