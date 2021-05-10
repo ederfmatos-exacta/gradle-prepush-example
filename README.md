@@ -2,7 +2,20 @@
 
 > Running tests before git push using Gradle
 
-### ✨ [Demo](https://github.com/ederfmatos-exacta/gradle-prepush-example)
+## How to use
+
+- Create folder "hooks" in your project root
+- Create file "pre-push" to "hooks" folder
+- Paste the following code in your "build.gradle"
+
+```shell
+task installGitHooks(type: Copy) {
+    "cp hooks/pre-push .git/hooks".execute()
+    "chmod +x ./git/hooks/pre-push".execute()
+}
+
+clean.dependsOn installGitHooks
+```
 
 ## Install
 
