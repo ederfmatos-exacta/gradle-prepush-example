@@ -16,6 +16,9 @@
 chmod +x .git/hooks/pre-push
 ```
 
+## Example
+<img src='./assets/example.gif' width='500"'>
+
 
 ## Author
 
