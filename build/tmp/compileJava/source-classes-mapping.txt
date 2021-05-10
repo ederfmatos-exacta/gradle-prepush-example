@@ -1,2 +1,0 @@
-com/ederfmatos/prepush/Application.java
- com.ederfmatos.prepush.Application

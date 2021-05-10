@@ -1,2 +1,0 @@
-com/ederfmatos/prepush/ApplicationTest.java
- com.ederfmatos.prepush.ApplicationTest
