@@ -22,7 +22,8 @@ test {
 }
 
 task installGitHooks(type: Copy) {
-    "cp hooks/pre-push .git/hooks ; chmod +x ./git/hooks/pre-push".execute()
+    "cp hooks/pre-push .git/hooks".execute()
+    "chmod +x ./git/hooks/pre-push".execute()
 }
 
 clean.dependsOn installGitHooks
